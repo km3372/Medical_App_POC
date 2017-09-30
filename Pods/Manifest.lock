@@ -1,0 +1,18 @@
+PODS:
+  - EasyImage (1.1.0)
+  - MBProgressHUD (0.8)
+  - QuickBlox (2.12)
+
+DEPENDENCIES:
+  - EasyImage
+  - MBProgressHUD (= 0.8)
+  - QuickBlox
+
+SPEC CHECKSUMS:
+  EasyImage: b4287984197e88697f84a1d509362af1b3e217e1
+  MBProgressHUD: 8688c331cb64702283be37ab8d7d329cdd25f251
+  QuickBlox: 5c0b21dc44a94e4ffb2e8b8eb2db606a635d1931
+
+PODFILE CHECKSUM: 9187f5ff1dedc01f63cfb44fab263049c3a24afd
+
+COCOAPODS: 1.3.1

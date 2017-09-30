@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="10dip" >
+
+    <ImageView
+        android:id="@+id/row_logs_iv_chc"
+        android:layout_width="200dip"
+        android:layout_height="80dip" />
+
+    <com.mindbowser.choicehealthcare.views.MBTextView
+        android:id="@+id/row_logs_tv_time_stamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textColor="@color/dark_default_gray"
+        android:textSize="@dimen/size_description"
+        custom:customFont="@string/font_open_sans_regular" />
+
+    <com.mindbowser.choicehealthcare.views.MBTextView
+        android:id="@+id/row_logs_tv_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="@string/title"
+        android:textColor="@color/dark_default_gray"
+        android:textSize="@dimen/size_description"
+        custom:customFont="@string/font_open_sans_regular" />
+
+</RelativeLayout>

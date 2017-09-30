@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Login Screen -->
+    <string name="username">Username</string>
+    <string name="doctor_name">Doctor Name</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="find_doctor">Find</string>
+    <string name="not_found">Not Found</string>
+    <string name="send_appointment_request">Send Appointment Request</string>
+    <string name="for_an_appontment">for an appointment with this doctor </string>
+    <string name="choice_point">Choice Points</string>
+    <string name="save_reminder">Save Reminder</string>
+    <string name="create_reminder">Create Reminder</string>
+    <string name="medication_alarm">Medication Alarm</string>
+    <string name="notification_message">Time to take medicine</string>
+    <string name="create">Create</string>
+    <string name="update_remider">Update</string>
+    <string name="update_reminder_dialog">Update Reminder</string>
+    <string name="delete_reminder">Delete</string>
+    <string name="app_name">Choice Health Care</string>
+    <string name="enter_medication">Enter Medication</string>
+    <string name="reminders">Reminders</string>
+    <string name="medications">Medications</string>
+    <string name="no_medications">No Medications</string>
+    <string name="notification_msg">Leave notifications on to receive an alert for this medication.</string>
+    <string name="for_">For ID</string>
+    <string name="reminder_id">Reminder ID</string>
+    <string name="reminder_saved">Reminder Saved Successfully</string>
+    <string name="alarm_tag">"Medication Reminder"</string>
+    <string name="medication">Medication</string>
+    <string name="toast_reminder_set">Reminder Set</string>
+    <string name="frequency">Frequency</string>
+    <string name="type">Type</string>
+    <string name="times">Times</string>
+    <string name="no_reminders">No Reminders</string>
+    <string name="doses">Doses</string>
+    <string name="notifications">Notifications:</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Title</string>
+    <string name="subtitle">Subtitle</string>
+    <string name="description">Description</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="font_open_sans_semi_bold">OpenSans-Semibold.ttf</string>
+    <string name="font_open_sans_semi_bold_italic">OpenSans-SemiboldItalic.ttf</string>
+    <string name="font_open_sans_regular">OpenSans-Regular.ttf</string>
+    <string name="message">Message</string>
+    <string name="ok">Okay</string>
+    <string name="error_message">Something went wrong. Please try again.</string>
+    <string name="network_warning">Internet connection is not available. Please try again.</string>
+    <string name="connection_time_out">Connection timed out. Please try again.</string>
+    <string name="server_error">Something is wrong with server. Please try again after some time.</string>
+    <string name="network_error">Network error: Connection refused</string>
+    <string name="temp_username">test@users.com</string>
+    <string name="temp_passowrd">This is a password!!</string>
+    <string name="submit_child_info">Click Submit to store children\'s information</string>
+    <string name="finished_survey">Thank you, finished survey</string>
+    <string name="log_inserted_successfully">Log Inserted Successfuly</string>
+    <string name="msg_no_rewards">No Reward</string>
+    <string name="msg_claim_rewards">Do you want to claim reward?</string>
+    <string name="parsing_server_error">SERVER ERROR</string>
+    <string name="on_notification">ON</string>
+    <string name="off_notification">OFF</string>
+
+    <!-- Book Appointment -->
+    <string name="appointment_preferences">Appointment Preferences</string>
+    <string name="select_preferences_msg">Select your preferences to receive more accurate responses from doctors</string>
+    <string name="when_do_you_want_appointment">When do you want the appointment?</string>
+    <string name="what_day_of_week">What day of the week?</string>
+    <string name="what_time_of_day">What time of day?</string>
+    <string name="medical_emergency_msg">If you think you have a medical emergency, please call 911 or go to the nearest hospital. Please do not attempt to request emergency care through this website.</string>
+    <string name="provide_details">In order to process your request, please provide the following details.</string>
+    <string name="patient_info">Patient Info</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="date_of_birth">Date of Birth (MM/DD/YYYY)</string>
+    <string name="provide_contact_email">Provide your contact phone and email*</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="reason_for_visit_star">Reason for the visit*</string>
+    <string name="reason_for_visit">Reason for the visit</string>
+    <string name="info_for_the_provider">Info. for the Provider(Maximum characters: 250)</string>
+    <string name="payment_details">Payment Details*</string>
+    <string name="paying_by_cash">I will be paying by cash</string>
+    <string name="paying_by_insurance">I will be paying by insurance</string>
+    <string name="asap">ASAP</string>
+    <string name="in_one_week">In One Week</string>
+    <string name="two_weeks">Two Weeks</string>
+    <string name="your_appointment_provider">Your Appointment Provider</string>
+    <string name="no_preference">No Preference</string>
+    <string name="label_time">Time</string>
+    <string name="label_dose">Dose</string>
+    <string name="msg_do_you_want_to_delete">Do you want to delete?</string>
+    <string name="toast_reminder_cancel">Reminder Canceled</string>
+    <!-- **** -->
+
+
+    <!-- Preferences keys -->
+    <string name="pref_session_id_key">loginKey</string>
+    <string name="pref_userid_key">userKey</string>
+    <string name="pref_password_key">passwordKey</string>
+
+    <!-- Dashboard screen -->
+    <string name="loading..">Loading...</string>
+    <!-- ****** -->
+
+    <string-array name="answer_questions">
+        <item>Your health survey questions</item>
+        <item>Answer Today\'s Questions</item>
+        <item>Answer today\'s health survey questions to get more points</item>
+        <item>Answer Questions</item>
+    </string-array>
+    <string-array name="log_health_data">
+        <item>Health Log</item>
+        <item>Log Health Related Activities</item>
+        <item>Exercise, blood pressure, blood sugar, bad habits.</item>
+        <item>Log Health Data</item>
+    </string-array>
+
+    <string name="health_survey_question">Your Health Survey Questions</string>
+    <string name="number_of_child">Number of Child: </string>
+    <string name="health_information_log">Health Information Log</string>
+    <string name="category">Category:</string>
+    <string name="log">Log:</string>
+    <string name="hint_log">Log</string>
+    <string name="choose_to_log">--Choose what to log--</string>
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+    <string name="on">On:</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="save">Save</string>
+    <string name="add">Add</string>
+    <string name="view_history">View my history for:</string>
+    <string name="unit">Unit</string>
+    <string name="date_format">mm-dd-yyyy</string>
+    <string name="statistics_for">Statistics for</string>
+    <string name="daily_average">Daily Average: ? </string>
+    <string name="select_category">Please select a category.</string>
+    <string name="enter_data">Enter data to log.</string>
+    <string name="select_date">Please select a date.</string>
+    <string name="submit">Submit</string>
+    <string name="start_over">Start Over</string>
+    <string name="book_now">Book Now</string>
+    <string name="choose_user">Choose\nUser</string>
+    <string name="read_article">Read this article</string>
+    <string name="enter_height">Please enter the height.</string>
+    <string name="enter_answer">Please enter your answer.</string>
+    <string name="enter_valid_usr_password">Please enter valid UserName and Password</string>
+    <string name="enter_valid_usr">Please enter valid UserName</string>
+    <string name="unable_to_login">Unable to Login</string>
+    <string name="enter_valid_password">Please enter valid Password</string>
+    <string name="select_answer">Please select your answer(s).</string>
+    <string name="select_no_of_child">Please select no of children.</string>
+    <string name="task_is_running">Task is already running.</string>
+    <string name="lbs">lbs</string>
+    <string name="yrs">yrs</string>
+    <string name="select_user_id ">Please select proper user ID.</string>
+    <string name="enter_user_id">Enter User ID</string>
+    <string name="feet">Feet</string>
+    <string name="inch">Inch</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="next">Next</string>
+    <string name="edit_info">Edit Child Info</string>
+    <string name="edit_num_of_child">Edit</string>
+    <string name="previous">Previous</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_child_info">Please enter child\'s information</string>
+    <string name="enter_children_info">Enter children\'s information</string>
+    <string name="msg_error_in_reading_format">Error in reading format</string>
+
+    <!-- Request keys -->
+    <string name="key_uid_email">email</string>
+    <string name="key_username">username</string>
+    <string name="key_points_uid">uid</string>
+    <string name="key_reward_id">rewardid</string>
+    <string name="key_docid">docid</string>
+    <string name="key_specid">specid</string>
+    <string name="key_password">password</string>
+    <string name="key_question_id">qid</string>
+    <string name="key_answers">answers</string>
+    <string name="key_for_id">for_id</string>
+    <string name="key_medication">medication</string>
+    <string name="key_med">med</string>
+    <string name="key_rem_id">remid</string>
+    <string name="key_type">type</string>
+    <string name="key_frequency">frequency</string>
+    <string name="key_time">time</string>
+    <string name="key_dose">dose</string>
+    <string name="key_data">data</string>
+    <string name="key_date">date</string>
+    <string name="key_day_time">daytime</string>
+    <string name="key_geo_lat">geo_lat</string>
+    <string name="key_geo_long">geo_long</string>
+    <string name="key_how_soon">how_soon</string>
+    <string name="key_dayweek">dayweek</string>
+    <string name="key_timeday">timeday</string>
+    <string name="key_first_name">first_name</string>
+    <string name="key_last_name">last_name</string>
+    <string name="key_dob">dob</string>
+    <string name="key_gender">gender</string>
+    <string name="key_phone">phone</string>
+    <string name="key_email">email</string>
+    <string name="key_reason">reason</string>
+    <string name="key_info">info</string>
+    <string name="key_payment">payment</string>
+    <!-- **** -->
+
+    <string name="network_connectivity_error_message">Sorry, no network connection available, please check your network connection and try again.</string>
+    <string name="label_remote_api_service">Remote Service</string>
+    <string name="loging_in">Loging In...</string>
+
+    <!-- API's end points -->
+    <string name="url_base">http://reapon.com</string>
+    <string name="url_point_sign_up">/user/sign-up</string>
+    <string name="url_point_login">/user/login</string>
+    <string name="url_point_get_next_question">/survey/getnextQuestion</string>
+    <string name="url_point_answer_question">/survey/answerQuestion</string>
+    <string name="url_point_rewards_fetch">/rewards/fetch/json</string>
+    <string name="url_point_rewards_claim">/rewards/claim</string>
+    <string name="url_point_appointment_list_specialties">/appointment/list_specialties</string>
+    <string name="url_point_doctor_specialty">/doctor/find_by_specialty</string>
+    <string name="url_point_appointment_choose_doctor">/appointment/choose_doctor</string>
+    <string name="url_point_appointment_submit">/appointment/submit</string>
+    <string name="url_point_appointment_set_lat_long">/appointment/set_lat_and_long</string>
+    <string name="url_point_doctors_location">/doctors/byLocation</string>
+    <string name="url_point_reminders_fetch_list">/reminders/fetch/list</string>
+    <string name="url_point_reminders_fetch_one">/reminders/fetch/one</string>
+    <string name="url_point_reminders_create">/reminders/create</string>
+    <string name="url_point_reminders_update">/reminders/update</string>
+    <string name="url_point_reminders_delete">/reminders/delete</string>
+    <string name="url_point_user_points">/user/points</string>
+    <string name="url_point_get_chc">/survey/get_CHC</string>
+    <string name="url_point_articles">/articles/fetch/json</string>
+    <string name="url_point_logger_categories">/logger/categories</string>
+    <string name="url_point_logger_insert">/logger/insert/json</string>
+    <string name="url_point_logger_view">/logger/view</string>
+    <string name="url_point_image_path">/assets/imgs/dash/</string>
+    <string name="url_point_get_children_names">/reminders/get_children_names</string>
+    <!-- ********** -->
+
+
+    <!-- book appointment values -->
+    <string name="value_asap">asap</string>
+    <string name="value_one_week">one-week</string>
+    <string name="value_two_weeks">two-weeks</string>
+    <string name="value_no_pref">no-pref</string>
+    <string name="value_any">any</string>
+    <string name="value_morning">morning</string>
+    <string name="value_afternoon">afternoon</string>
+    <string name="value_evening">evening</string>
+    <string name="value_cash">cash</string>
+    <string name="value_insurance">insurance</string>
+    <string name="thank_you">Thank You</string>
+    <string name="appointment_request_sent">Your Appointment Request has been sent</string>
+    <string name="provider_will_contact">Your provider\'s office will contact you to confirm your appointment time and date.</string>
+
+    <string-array name="day_of_week">
+        <item>No Preference</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+    <string-array name="gender">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string name="appointment_submitted_successfully">Appointment Submitted Successfully</string>
+    <string name="time_day_anytime">Anytime</string>
+    <string name="time_day_morning">Morning</string>
+    <string name="time_day_evening">Evening</string>
+    <string name="time_day_afternoon">Afternoon</string>
+    <string name="validation_message">Please enter the mandatory fields!</string>
+
+    <!-- **** -->
+
+    <string-array name="reminder_type">
+        <item>Each Hours</item>
+        <item>Per Day</item>
+    </string-array>
+
+    <string name="type_hours">Each Hours</string>
+    <string name="type_per_day">Per Day</string>
+    <string name="no_points_to_reedeem">Oops! You don\'t have enough Choice Points, yet.</string>
+    <string name="claim">Claim</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string name="menu_home">Home</string>
+    <string name="menu_choose_user">Choose User</string>
+    <string name="menu_request_appointment">Request Appointment</string>
+    <string name="menu_log_health_data">Log Health Data</string>
+    <string name="menu_add_medication_reminder">Medication Reminder</string>
+    <string name="menu_rewards_catalog">Rewards Catalog</string>
+
+    <!-- Location Service Dialog & Message -->
+    <string name="gps_dialog_header">GPS settings</string>
+    <string name="gps_dialog_message">GPS is not enabled. Do you want to go to settings menu?</string>
+    <string name="gps_setting">Settings</string>
+    <string name="gps_cancel">Cancel</string>
+
+</resources>

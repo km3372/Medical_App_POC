@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+    <dict>
+        <key>name</key>
+        <string>My Current Location</string>
+        <key>latitude</key>
+        <real>33.949867</real>
+        <key>longitude</key>
+        <real>-84.12924749999999</real>
+        <key>radius</key>
+        <real>100</real>
+        <key>state</key>
+        <string>GA</string>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Local Marketing, Inc.</string>
+        <key>latitude</key>
+        <real>33.796072</real>
+        <key>longitude</key>
+        <real>-84.427594</real>
+        <key>radius</key>
+        <real>100</real>
+        <key>state</key>
+        <string>GA</string>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Southside Medical Center</string>
+        <key>latitude</key>
+        <real>33.72704</real>
+        <key>longitude</key>
+        <real>-84.394096</real>
+        <key>radius</key>
+        <real>100</real>
+        <key>phone</key>
+        <string>404-688-1350</string>
+        <key>street</key>
+        <string>1046 Ridge Ave SW</string>
+        <key>city</key>
+        <string>Atlanta</string>
+        <key>state</key>
+        <string>GA</string>
+        <key>zip</key>
+        <string>30315</string>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Southern Regional Medical Center</string>
+        <key>latitude</key>
+        <real>33.579167</real>
+        <key>longitude</key>
+        <real>-84.389539</real>
+        <key>radius</key>
+        <real>198.33665870363259</real>
+        <key>phone</key>
+        <string>770-991-8000</string>
+        <key>street</key>
+        <string>11 Upper Riverdale Rd</string>
+        <key>city</key>
+        <string>Riverdale</string>
+        <key>state</key>
+        <string>GA</string>
+        <key>zip</key>
+        <string>30274</string>
+    </dict>
+    <dict>
+		<key>city</key>
+		<string>Atlanta</string>
+		<key>latitude</key>
+		<real>33.908467250000001</real>
+		<key>longitude</key>
+		<real>-84.34990415</real>
+		<key>name</key>
+		<string>Saint Joseph's Hospital of Atlanta</string>
+		<key>phone</key>
+		<string>404-778-7777</string>
+		<key>radius</key>
+		<real>198.33665870363259</real>
+		<key>state</key>
+		<string>GA</string>
+		<key>street</key>
+		<string>5665 Peachtree Dunwoody Rd</string>
+		<key>zip</key>
+		<string>30342</string>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Atlanta</string>
+		<key>latitude</key>
+		<real>33.908467250000001</real>
+		<key>longitude</key>
+		<real>-84.34990415</real>
+		<key>name</key>
+		<string>Emory Saint Joseph's Hospital</string>
+		<key>phone</key>
+		<string>678-843-7001</string>
+		<key>radius</key>
+		<real>198.33665870363259</real>
+		<key>state</key>
+		<string>GA</string>
+		<key>street</key>
+		<string>5665 Peachtree Dunwoody Rd</string>
+		<key>zip</key>
+		<string>30342</string>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Atlanta</string>
+		<key>latitude</key>
+		<real>33.9058986</real>
+		<key>longitude</key>
+		<real>-84.35395355</real>
+		<key>name</key>
+		<string>Children's Healthcare of Atlanta at Scottish Rite</string>
+		<key>phone</key>
+		<string>404-785-5252</string>
+		<key>radius</key>
+		<real>225.24616410921797</real>
+		<key>state</key>
+		<string>GA</string>
+		<key>street</key>
+		<string>1001 Johnson Ferry Rd NE</string>
+		<key>zip</key>
+		<string>30342</string>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Atlanta</string>
+		<key>latitude</key>
+		<real>33.753606999411737</real>
+		<key>longitude</key>
+		<real>-84.382087001415044</real>
+		<key>name</key>
+		<string>Children's Healthcare of Atlanta at Hughes Spalding</string>
+		<key>phone</key>
+		<string>404-785-5437</string>
+		<key>radius</key>
+		<real>49.936164549048101</real>
+		<key>state</key>
+		<string>GA</string>
+		<key>street</key>
+		<string>35 Jesse Hill Jr Dr SE</string>
+		<key>zip</key>
+		<string>30303</string>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Atlanta</string>
+		<key>latitude</key>
+		<real>33.681746949999997</real>
+		<key>longitude</key>
+		<real>-84.414795950000013</real>
+		<key>name</key>
+		<string>Jackson L. Gates, MD</string>
+		<key>phone</key>
+		<string>678-591-6509</string>
+		<key>radius</key>
+		<real>43.537251926071029</real>
+		<key>state</key>
+		<string>GA</string>
+		<key>street</key>
+		<string>777 Cleveland Ave SW #100</string>
+		<key>zip</key>
+		<string>30315</string>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Atlanta</string>
+		<key>latitude</key>
+		<real>33.807508099410533</real>
+		<key>longitude</key>
+		<real>-84.394009401418842</real>
+		<key>name</key>
+		<string>Piedmont Atlanta Hospital</string>
+		<key>phone</key>
+		<string>404-605-5000</string>
+		<key>radius</key>
+		<real>49.936455244221172</real>
+		<key>state</key>
+		<string>GA</string>
+		<key>street</key>
+		<string>1968 Peachtree Rd NW</string>
+		<key>zip</key>
+		<string>30309</string>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Atlanta</string>
+		<key>latitude</key>
+		<real>33.768543199411411</real>
+		<key>longitude</key>
+		<real>-84.386311201416106</real>
+		<key>name</key>
+		<string>Emory University Hospital Midtown</string>
+		<key>phone</key>
+		<string>404-686-4411</string>
+		<key>radius</key>
+		<real>49.936245075719107</real>
+		<key>state</key>
+		<string>GA</string>
+		<key>street</key>
+		<string>550 Peachtree St NE</string>
+		<key>zip</key>
+		<string>30308</string>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Atlanta</string>
+		<key>latitude</key>
+		<real>33.761842199411547</real>
+		<key>longitude</key>
+		<real>-84.373822501415646</real>
+		<key>name</key>
+		<string>WellStar Atlanta Medical Center</string>
+		<key>phone</key>
+		<string>404-265-4000</string>
+		<key>radius</key>
+		<real>49.936208947397738</real>
+		<key>state</key>
+		<string>GA</string>
+		<key>street</key>
+		<string>303 Parkway Dr NE</string>
+		<key>zip</key>
+		<string>30312</string>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Atlanta</string>
+		<key>latitude</key>
+		<real>33.751302799411789</real>
+		<key>longitude</key>
+		<real>-84.38324780141491</real>
+		<key>name</key>
+		<string>Grady Health System</string>
+		<key>phone</key>
+		<string>404-616-1000</string>
+		<key>radius</key>
+		<real>49.936152126191224</real>
+		<key>state</key>
+		<string>GA</string>
+		<key>street</key>
+		<string>80 Jesse Hill Jr Dr SE</string>
+		<key>zip</key>
+		<string>30303</string>
+	</dict>
+	<dict>
+		<key>city</key>
+		<string>Atlanta</string>
+		<key>latitude</key>
+		<real>33.909142299999999</real>
+		<key>longitude</key>
+		<real>-84.354149050000004</real>
+		<key>name</key>
+		<string>Northside Hospital</string>
+		<key>phone</key>
+		<string>404-851-8000</string>
+		<key>radius</key>
+		<real>279.20885637811585</real>
+		<key>state</key>
+		<string>GA</string>
+		<key>street</key>
+		<string>1000 Johnson Ferry Rd NE</string>
+		<key>zip</key>
+		<string>30342</string>
+	</dict>
+</array>
+</plist>

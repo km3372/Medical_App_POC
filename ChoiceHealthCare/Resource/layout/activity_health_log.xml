@@ -1,0 +1,254 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.mindbowser.choicehealthcare.activities.HealthLogActivity" >
+
+    <include
+        android:id="@+id/activity_appointment_header"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        layout="@layout/layout_action_bar_header"
+        android:background="@color/white" >
+    </include>
+
+    <ScrollView
+        android:id="@+id/activity_health_log_scroll_view_log_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/activity_appointment_header"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/activity_health_log_layout_log_form"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <com.mindbowser.choicehealthcare.views.MBTextView
+                android:id="@+id/activity_health_log_tv_heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:gravity="center"
+                android:text="@string/health_information_log"
+                android:textColor="@color/cp_dark_blue_shade"
+                android:textSize="@dimen/size_title"
+                android:textStyle="bold"
+                custom:customFont="@string/font_open_sans_regular" />
+
+            <LinearLayout
+                android:id="@+id/activity_health_log_layout_category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <com.mindbowser.choicehealthcare.views.MBTextView
+                    android:id="@+id/activity_health_log_tv_category"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="@string/category"
+                    android:textColor="@color/cp_dark_blue_shade"
+                    android:textSize="@dimen/size_subtitle"
+                    custom:customFont="@string/font_open_sans_regular" />
+
+                <Spinner
+                    android:id="@+id/activity_health_log_spinner_categories"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/activity_health_log_layout_log"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dip"
+                android:animateLayoutChanges="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <com.mindbowser.choicehealthcare.views.MBTextView
+                    android:id="@+id/activity_health_log_tv_log"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.4"
+                    android:gravity="right"
+                    android:text="@string/log"
+                    android:textColor="@color/cp_dark_blue_shade"
+                    android:textSize="@dimen/size_subtitle"
+                    custom:customFont="@string/font_open_sans_regular" />
+
+                <com.mindbowser.choicehealthcare.views.MBEditText
+                    android:id="@+id/activity_health_log_text_log"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="2.2"
+                    android:hint="@string/hint_log"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/cp_dark_blue_shade"
+                    android:textCursorDrawable="@null"
+                    android:textSize="@dimen/size_subtitle"
+                    custom:customFont="@string/font_open_sans_regular" />
+
+                <com.mindbowser.choicehealthcare.views.MBTextView
+                    android:id="@+id/activity_health_log_tv_units"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1.8"
+                    android:gravity="center"
+                    android:text="@string/unit"
+                    android:textColor="@color/cp_dark_blue_shade"
+                    android:textSize="@dimen/size_subtitle"
+                    custom:customFont="@string/font_open_sans_regular" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/activity_health_log_layout_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <com.mindbowser.choicehealthcare.views.MBTextView
+                    android:id="@+id/activity_health_log_tv_on"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.4"
+                    android:gravity="right"
+                    android:text="@string/on"
+                    android:textColor="@color/cp_dark_blue_shade"
+                    android:textSize="@dimen/size_subtitle"
+                    custom:customFont="@string/font_open_sans_regular" />
+
+                <com.mindbowser.choicehealthcare.views.MBTextView
+                    android:id="@+id/activity_health_log_tv_date"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="3"
+                    android:hint="@string/date_format"
+                    android:paddingLeft="5dp"
+                    android:textColor="@color/cp_dark_blue_shade"
+                    android:textSize="@dimen/size_subtitle"
+                    custom:customFont="@string/font_open_sans_regular" />
+
+                <Spinner
+                    android:id="@+id/activity_health_log_spinner_am_pm"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/activity_health_log_layout_btns"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dip"
+                android:orientation="horizontal" >
+
+                <com.mindbowser.choicehealthcare.views.MBButton
+                    android:id="@+id/activity_health_log_btn_add"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginRight="80dp"
+                    android:background="@color/cp_red"
+                    android:text="@string/add"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/size_subtitle"
+                    custom:customFont="@string/font_open_sans_regular" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="20dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <com.mindbowser.choicehealthcare.views.MBTextView
+                    android:id="@+id/activity_health_log_tv_view_history"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/view_history"
+                    android:textColor="@color/cp_dark_blue_shade"
+                    android:textSize="@dimen/size_subtitle"
+                    custom:customFont="@string/font_open_sans_regular" />
+
+                <Spinner
+                    android:id="@+id/activity_health_log_spinner_history_categories"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <WebView
+                android:id="@+id/activity_health_log_web_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip" >
+
+                <com.mindbowser.choicehealthcare.views.MBTextView
+                    android:id="@+id/activity_health_log_tv_statistics"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:gravity="center"
+                    android:text="@string/statistics_for"
+                    android:textColor="@color/dark_default_gray"
+                    android:textSize="@dimen/size_title"
+                    android:textStyle="bold"
+                    custom:customFont="@string/font_open_sans_regular" />
+
+                <com.mindbowser.choicehealthcare.views.MBTextView
+                    android:id="@+id/activity_health_log_tv_daily_average"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/activity_health_log_tv_statistics"
+                    android:layout_marginTop="10dip"
+                    android:text="@string/daily_average"
+                    android:textColor="@color/dark_default_gray"
+                    android:textSize="@dimen/size_subtitle"
+                    custom:customFont="@string/font_open_sans_regular" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/activity_health_log_layout_history"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>SubSections</key>
+		<array>
+			<string>Choose User</string>
+		</array>
+		<key>SectionName</key>
+		<string>Choose User</string>
+	</dict>
+	<dict>
+		<key>SubSections</key>
+		<array>
+			<string>How It Works</string>
+		</array>
+		<key>SectionName</key>
+		<string>How It Works</string>
+	</dict>
+	<dict>
+		<key>SubSections</key>
+		<array>
+			<string>My Profile</string>
+			<string>Health Scorecard</string>
+			<string>Edit Profile</string>
+		</array>
+		<key>SectionName</key>
+		<string>My Profile</string>
+	</dict>
+	<dict>
+		<key>SubSections</key>
+		<array>
+			<string>Wellness Resources</string>
+			<string>Log Health Data</string>
+			<string>Article Archive</string>
+		</array>
+		<key>SectionName</key>
+		<string>Wellness Resources</string>
+	</dict>
+	<dict>
+		<key>SubSections</key>
+		<array>
+			<string>Appointments &amp; Medications</string>
+			<string>Schedule An Appointment</string>
+			<string>Medication Reminders</string>
+		</array>
+		<key>SectionName</key>
+		<string>Appointments &amp; Medications</string>
+	</dict>
+	<dict>
+		<key>SectionName</key>
+		<string>Redeem Points</string>
+		<key>SubSections</key>
+		<array>
+			<string>Redeem Points</string>
+			<string>Rewards Catalog</string>
+		</array>
+	</dict>
+</array>
+</plist>

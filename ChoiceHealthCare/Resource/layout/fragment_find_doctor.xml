@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:id="@+id/tr_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp" >
+
+        <Button
+            android:id="@+id/btn_appointment_by_specialities"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:background="@drawable/btn_border"
+            android:text="By Specialty"
+            android:textColor="@color/cp_red"
+            android:textStyle="bold" >
+        </Button>
+
+        <Button
+            android:id="@+id/btn_appointment_by_doctor"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:background="@drawable/btn_border"
+            android:text="By Doctor"
+            android:textColor="@color/dark_default_gray" >
+        </Button>
+    </TableRow>
+
+    <RelativeLayout
+        android:id="@+id/relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true" >
+
+        <Spinner
+            android:id="@+id/spinner_dr_speciality"
+            android:layout_width="250dip"
+            android:layout_height="40dip"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/bg_spinner"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp" />
+
+        <EditText
+            android:id="@+id/et_doctor_name"
+            style="@style/editTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:hint="@string/doctor_name"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_find"
+            style="@style/buttonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/find_doctor" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="cp_sky_blue">#85CCEC</color>
+    <color name="semi_transparent">#80000000</color>
+    <color name="dark_default_gray">#808080</color>
+    <color name="gray">#CFCFCF</color>
+    <color name="dark_grey">#585858</color>
+    <color name="cp_dark_blue_shade">#144574</color>
+    <color name="cp_red">#770011</color>
+    <item name="EditText_TextColor" type="color">#3A6895</item>
+    <item name="EditText_HintTextColor" type="color">#CECED4</item>
+    <color name="button_default_color">#3E6387</color>
+    <color name="red">#CE1E60</color>
+    <color name="black">#000000</color>
+
+</resources>

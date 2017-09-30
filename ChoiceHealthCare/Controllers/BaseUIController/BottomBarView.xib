@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="dq8-kB-sFf" customClass="BottomBarView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hct-NR-gSy">
+                    <rect key="frame" x="8" y="7" width="70" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <inset key="titleEdgeInsets" minX="0.0" minY="20" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="Get Help">
+                        <color key="titleColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonsClicked:" destination="dq8-kB-sFf" eventType="touchUpInside" id="4Hv-CH-fSG"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="grey-phone.png" translatesAutoresizingMaskIntoConstraints="NO" id="dNh-xI-Hml">
+                    <rect key="frame" x="8" y="2" width="70" height="26"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FMo-Mg-Xqy">
+                    <rect key="frame" x="86" y="7" width="70" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <inset key="titleEdgeInsets" minX="0.0" minY="20" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="My Appts">
+                        <color key="titleColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonsClicked:" destination="dq8-kB-sFf" eventType="touchUpInside" id="ewU-az-AEA"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgU-5E-LqY">
+                    <rect key="frame" x="164" y="7" width="70" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <inset key="titleEdgeInsets" minX="0.0" minY="20" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="My Meds">
+                        <color key="titleColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonsClicked:" destination="dq8-kB-sFf" eventType="touchUpInside" id="d1Q-x2-EgZ"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pill.png" translatesAutoresizingMaskIntoConstraints="NO" id="0Zb-LX-tjw">
+                    <rect key="frame" x="134" y="2" width="130" height="26"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Fs-bp-wPp">
+                    <rect key="frame" x="242" y="7" width="70" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <inset key="titleEdgeInsets" minX="0.0" minY="20" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="Points">
+                        <color key="titleColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonsClicked:" destination="dq8-kB-sFf" eventType="touchUpInside" id="Jhn-hu-xN7"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock.png" translatesAutoresizingMaskIntoConstraints="NO" id="s0v-fD-1bw">
+                    <rect key="frame" x="56" y="2" width="130" height="26"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="FMo-Mg-Xqy" firstAttribute="top" secondItem="dq8-kB-sFf" secondAttribute="top" constant="7" id="0QK-Tm-2uN"/>
+                <constraint firstAttribute="bottom" secondItem="cgU-5E-LqY" secondAttribute="bottom" constant="3" id="0dp-bl-16P"/>
+                <constraint firstItem="FMo-Mg-Xqy" firstAttribute="leading" secondItem="hct-NR-gSy" secondAttribute="trailing" constant="8" id="1Xx-xI-BEc"/>
+                <constraint firstItem="dNh-xI-Hml" firstAttribute="width" secondItem="hct-NR-gSy" secondAttribute="width" id="4fu-hn-gJb"/>
+                <constraint firstItem="s0v-fD-1bw" firstAttribute="centerX" secondItem="FMo-Mg-Xqy" secondAttribute="centerX" id="6t2-j3-QFC"/>
+                <constraint firstAttribute="trailing" secondItem="5Fs-bp-wPp" secondAttribute="trailing" constant="8" id="7DW-8a-BWj"/>
+                <constraint firstItem="hct-NR-gSy" firstAttribute="top" secondItem="dq8-kB-sFf" secondAttribute="top" constant="7" id="CVz-CI-ZY0"/>
+                <constraint firstItem="dNh-xI-Hml" firstAttribute="top" secondItem="hct-NR-gSy" secondAttribute="top" constant="-7" id="GBw-SQ-4Kh"/>
+                <constraint firstItem="FMo-Mg-Xqy" firstAttribute="width" secondItem="hct-NR-gSy" secondAttribute="width" id="HPH-h2-yfZ"/>
+                <constraint firstItem="s0v-fD-1bw" firstAttribute="top" secondItem="dq8-kB-sFf" secondAttribute="top" constant="2" id="HbM-Tt-Ush"/>
+                <constraint firstItem="dNh-xI-Hml" firstAttribute="height" secondItem="hct-NR-gSy" secondAttribute="height" constant="-8" id="J5d-ek-LxZ"/>
+                <constraint firstAttribute="bottom" secondItem="hct-NR-gSy" secondAttribute="bottom" constant="3" id="Oo5-K5-KDh"/>
+                <constraint firstAttribute="bottom" secondItem="FMo-Mg-Xqy" secondAttribute="bottom" constant="3" id="VfO-t7-7rT"/>
+                <constraint firstItem="5Fs-bp-wPp" firstAttribute="width" secondItem="hct-NR-gSy" secondAttribute="width" id="WuJ-l4-rbN"/>
+                <constraint firstItem="0Zb-LX-tjw" firstAttribute="centerX" secondItem="cgU-5E-LqY" secondAttribute="centerX" id="ZCo-cr-etP"/>
+                <constraint firstItem="cgU-5E-LqY" firstAttribute="width" secondItem="hct-NR-gSy" secondAttribute="width" id="aD4-wg-1gY"/>
+                <constraint firstItem="cgU-5E-LqY" firstAttribute="top" secondItem="dq8-kB-sFf" secondAttribute="top" constant="7" id="b8f-Yv-8fk"/>
+                <constraint firstItem="hct-NR-gSy" firstAttribute="leading" secondItem="dq8-kB-sFf" secondAttribute="leading" constant="8" id="bJf-Y6-8UL"/>
+                <constraint firstItem="cgU-5E-LqY" firstAttribute="leading" secondItem="FMo-Mg-Xqy" secondAttribute="trailing" constant="8" id="fnI-xK-Gcl"/>
+                <constraint firstItem="5Fs-bp-wPp" firstAttribute="top" secondItem="dq8-kB-sFf" secondAttribute="top" constant="7" id="gOv-o8-HHl"/>
+                <constraint firstItem="s0v-fD-1bw" firstAttribute="height" secondItem="FMo-Mg-Xqy" secondAttribute="height" constant="-8" id="hkg-o2-vZi"/>
+                <constraint firstItem="dNh-xI-Hml" firstAttribute="leading" secondItem="hct-NR-gSy" secondAttribute="leading" id="hwz-2b-aPx"/>
+                <constraint firstItem="0Zb-LX-tjw" firstAttribute="top" secondItem="dq8-kB-sFf" secondAttribute="top" constant="2" id="jso-ZR-kOH"/>
+                <constraint firstItem="dNh-xI-Hml" firstAttribute="top" secondItem="dq8-kB-sFf" secondAttribute="top" constant="2" id="niN-NY-5LF"/>
+                <constraint firstAttribute="bottom" secondItem="5Fs-bp-wPp" secondAttribute="bottom" constant="3" id="pae-Zj-2Qg"/>
+                <constraint firstItem="0Zb-LX-tjw" firstAttribute="height" secondItem="cgU-5E-LqY" secondAttribute="height" constant="-8" id="uX4-aU-FFj"/>
+                <constraint firstItem="5Fs-bp-wPp" firstAttribute="leading" secondItem="cgU-5E-LqY" secondAttribute="trailing" constant="8" id="wu4-F3-Vuv"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="GBw-SQ-4Kh"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="getHelpButton" destination="hct-NR-gSy" id="VV8-Oj-PlU"/>
+                <outlet property="myAppsButton" destination="FMo-Mg-Xqy" id="YcG-f4-CjY"/>
+                <outlet property="myMedsButton" destination="cgU-5E-LqY" id="Fs2-T4-5zq"/>
+                <outlet property="pointsButton" destination="5Fs-bp-wPp" id="GP0-wz-8PP"/>
+            </connections>
+            <point key="canvasLocation" x="325" y="59"/>
+        </view>
+        <view contentMode="scaleToFill" id="64W-XW-Zk3" customClass="BottomBarView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e5a-WV-qZm">
+                    <rect key="frame" x="8" y="7" width="148" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <inset key="titleEdgeInsets" minX="0.0" minY="20" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="Get Help">
+                        <color key="titleColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonsClicked:" destination="64W-XW-Zk3" eventType="touchUpInside" id="Mcu-vS-8lb"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O4D-6N-u0n">
+                    <rect key="frame" x="164" y="7" width="148" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <inset key="titleEdgeInsets" minX="0.0" minY="20" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="Points">
+                        <color key="titleColor" red="0.50196078430000002" green="0.50196078430000002" blue="0.50196078430000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonsClicked:" destination="64W-XW-Zk3" eventType="touchUpInside" id="SoV-Z5-aaa"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="O4D-6N-u0n" firstAttribute="top" secondItem="64W-XW-Zk3" secondAttribute="top" constant="7" id="7aZ-gl-AAG"/>
+                <constraint firstAttribute="bottom" secondItem="e5a-WV-qZm" secondAttribute="bottom" constant="3" id="IDF-Dv-Al8"/>
+                <constraint firstItem="e5a-WV-qZm" firstAttribute="leading" secondItem="64W-XW-Zk3" secondAttribute="leading" constant="8" id="NqZ-uo-wp0"/>
+                <constraint firstAttribute="bottom" secondItem="O4D-6N-u0n" secondAttribute="bottom" constant="3" id="UZo-QN-lWp"/>
+                <constraint firstAttribute="trailing" secondItem="O4D-6N-u0n" secondAttribute="trailing" constant="8" id="Vcb-H9-vEw"/>
+                <constraint firstItem="e5a-WV-qZm" firstAttribute="top" secondItem="64W-XW-Zk3" secondAttribute="top" constant="7" id="Zor-cc-xnZ"/>
+                <constraint firstItem="O4D-6N-u0n" firstAttribute="width" secondItem="e5a-WV-qZm" secondAttribute="width" id="aCg-JG-GWB"/>
+                <constraint firstItem="O4D-6N-u0n" firstAttribute="leading" secondItem="e5a-WV-qZm" secondAttribute="trailing" constant="8" id="jKO-t8-Ghg"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="getHelpButton" destination="e5a-WV-qZm" id="S9m-Dd-Xby"/>
+                <outlet property="pointsButton" destination="O4D-6N-u0n" id="xgA-pK-ZTm"/>
+            </connections>
+            <point key="canvasLocation" x="325" y="203"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="clock.png" width="130" height="130"/>
+        <image name="grey-phone.png" width="111" height="111"/>
+        <image name="pill.png" width="130" height="130"/>
+    </resources>
+</document>

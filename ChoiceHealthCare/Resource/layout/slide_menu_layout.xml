@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/activity_dashboard_relative_header"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:background="@color/white" >
+
+        <ImageView
+            android:layout_width="120dip"
+            android:layout_height="80dip"
+            android:layout_centerInParent="true"
+            android:src="@drawable/logo" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dip"
+            android:layout_alignParentBottom="true"
+            android:background="@color/cp_sky_blue" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_slide_menu_home"
+        style="@style/slideMenuButtonStyle"
+        android:visibility="gone"
+        android:text="@string/menu_home" />
+    
+    <Button
+        android:id="@+id/btn_slide_menu_choose_user"
+        style="@style/slideMenuButtonStyle"
+        android:text="@string/menu_choose_user" />
+
+    <View style="@style/slideMenuLineViewStyle" />
+
+    <Button
+        android:id="@+id/btn_slide_menu_request_appointment"
+        style="@style/slideMenuButtonStyle"
+        android:text="@string/menu_request_appointment" />
+
+    <View style="@style/slideMenuLineViewStyle" />
+
+    <Button
+        android:id="@+id/btn_slide_menu_log_health_data"
+        style="@style/slideMenuButtonStyle"
+        android:text="@string/menu_log_health_data" />
+
+    <View style="@style/slideMenuLineViewStyle" />
+
+    <Button
+        android:id="@+id/btn_slide_menu_add_meditation_reminder"
+        style="@style/slideMenuButtonStyle"
+        android:text="@string/menu_add_medication_reminder" />
+
+    <View style="@style/slideMenuLineViewStyle" />
+
+    <Button
+        android:id="@+id/btn_slide_menu_rewards_catalogs"
+        style="@style/slideMenuButtonStyle"
+        android:text="@string/menu_rewards_catalog" />
+
+    <View style="@style/slideMenuLineViewStyle" />
+
+</LinearLayout>

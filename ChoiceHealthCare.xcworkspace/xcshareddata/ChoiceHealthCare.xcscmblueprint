@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "20F77A0348B6D31BCED8B91D39BDDFB3670040DB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "085EB578FAECA0F5BCE845DFA8E9A0E60334FD1A" : 0,
+    "20F77A0348B6D31BCED8B91D39BDDFB3670040DB" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AE06C488-6F96-4182-81E7-462AC6965D8C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "085EB578FAECA0F5BCE845DFA8E9A0E60334FD1A" : "ChoiceHealthCare",
+    "20F77A0348B6D31BCED8B91D39BDDFB3670040DB" : "ChoiceIOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ChoiceHealthCare",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ChoiceHealthCare.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/Mindbowser\/choicehealthcare-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "085EB578FAECA0F5BCE845DFA8E9A0E60334FD1A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LocalMarketingIncATL\/ChoiceIOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "20F77A0348B6D31BCED8B91D39BDDFB3670040DB"
+    }
+  ]
+}

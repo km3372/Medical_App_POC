@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:background="@drawable/layout_appoinment_border"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/tv_label_row_reminders_time"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/label_time"
+            android:textColor="@color/dark_default_gray"
+            android:textSize="@dimen/size_subtitle" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_value_row_reminders_time"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/cp_red"
+            android:textSize="@dimen/size_subtitle" >
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/tv_label_row_reminders_dose"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/label_dose"
+            android:textColor="@color/dark_default_gray"
+            android:textSize="@dimen/size_subtitle" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_value_row_reminders_dose"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/cp_red"
+            android:textSize="@dimen/size_subtitle" >
+        </TextView>
+    </TableRow>
+
+</LinearLayout>

@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.mindbowser.choicehealthcare.activities.ReminderActivity" >
+
+    <include
+        android:id="@+id/activity_reminder_header"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        layout="@layout/layout_action_bar_header"
+        android:background="@color/white" >
+    </include>
+
+    <LinearLayout
+        android:id="@+id/ll_reminder_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_reminder_header"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_enter_medication_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/reminders"
+            android:textColor="@color/cp_dark_blue_shade"
+            android:textSize="@dimen/size_heading"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/rootPadding"
+            android:layout_marginRight="@dimen/rootPadding"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_notification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="@string/notifications"
+                android:textColor="@color/dark_default_gray"
+                android:textSize="@dimen/size_subtitle" />
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1" >
+
+                <Button
+                    android:id="@+id/btn_notification_on"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_border"
+                    android:text="@string/on_notification"
+                    android:textColor="@color/dark_default_gray" >
+                </Button>
+
+                <Button
+                    android:id="@+id/btn_notification_off"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_border"
+                    android:text="@string/off_notification"
+                    android:textColor="@color/dark_default_gray" >
+                </Button>
+            </TableRow>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_notification_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/notification_msg"
+            android:textColor="@color/dark_default_gray"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_no_reminders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/no_reminders"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/size_heading"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/lv_reminders"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ll_reminder_header"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@color/white"
+        android:cacheColorHint="@null"
+        android:divider="@null"
+        android:dividerHeight="10dip"
+        android:padding="5dip" />
+
+</RelativeLayout>

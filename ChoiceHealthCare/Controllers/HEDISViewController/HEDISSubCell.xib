@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="HEDISSubCell" rowHeight="77" id="KGk-i7-Jjw" customClass="HEDISSubCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="77"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="76.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KWp-i4-JMq">
+                        <rect key="frame" x="57" y="8" width="255" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Last completed on 4/01/16" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GPf-on-CBN">
+                        <rect key="frame" x="57" y="55.5" width="255" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.058823529409999999" green="0.58823529409999997" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rfq-7H-hdJ">
+                        <rect key="frame" x="57" y="25.5" width="255" height="29"/>
+                        <string key="text">Detail label
+line 2</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7sf-mn-VwK">
+                        <rect key="frame" x="8" y="16" width="44" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="44" id="Crs-S2-rVa"/>
+                            <constraint firstAttribute="height" constant="44" id="HjN-9U-kGp"/>
+                        </constraints>
+                        <state key="normal" image="unchecked1.png"/>
+                        <state key="selected" image="checked1.png"/>
+                        <connections>
+                            <action selector="selectTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="bWI-rx-6bb"/>
+                        </connections>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hns-7I-aRw">
+                        <rect key="frame" x="0.0" y="75.5" width="320" height="1"/>
+                        <color key="backgroundColor" red="0.96904325485229492" green="0.96901422739028931" blue="0.96903061866760254" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="KaN-bZ-Gcp"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.90992403030395508" green="0.90981936454772949" blue="0.90985828638076782" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="7sf-mn-VwK" secondAttribute="bottom" constant="2" id="2Hr-PM-dQW"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="KWp-i4-JMq" secondAttribute="trailing" id="3wR-cV-yyZ"/>
+                    <constraint firstItem="7sf-mn-VwK" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="HSW-kl-bO9"/>
+                    <constraint firstItem="7sf-mn-VwK" firstAttribute="top" relation="greaterThanOrEqual" secondItem="H2p-sc-9uM" secondAttribute="top" constant="2" id="Lrz-ob-cl1"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="GPf-on-CBN" secondAttribute="trailing" id="MU7-6K-cqD"/>
+                    <constraint firstItem="GPf-on-CBN" firstAttribute="leading" secondItem="7sf-mn-VwK" secondAttribute="trailing" constant="5" id="Ufj-wz-j6s"/>
+                    <constraint firstAttribute="trailing" secondItem="hns-7I-aRw" secondAttribute="trailing" id="Ypi-ha-80v"/>
+                    <constraint firstItem="GPf-on-CBN" firstAttribute="top" secondItem="rfq-7H-hdJ" secondAttribute="bottom" constant="1" id="jkh-Md-thh"/>
+                    <constraint firstItem="hns-7I-aRw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="mZq-b7-CyC"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="7sf-mn-VwK" secondAttribute="leading" id="p7Z-Gj-xwP"/>
+                    <constraint firstAttribute="bottom" secondItem="hns-7I-aRw" secondAttribute="bottom" id="q7l-aC-37e"/>
+                    <constraint firstItem="rfq-7H-hdJ" firstAttribute="leading" secondItem="KWp-i4-JMq" secondAttribute="leading" id="rxW-PW-0MU"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="rfq-7H-hdJ" secondAttribute="trailing" id="wJ9-6L-oc3"/>
+                    <constraint firstItem="rfq-7H-hdJ" firstAttribute="top" secondItem="KWp-i4-JMq" secondAttribute="bottom" constant="0.5" id="xLp-V2-UJ6"/>
+                    <constraint firstItem="KWp-i4-JMq" firstAttribute="leading" secondItem="7sf-mn-VwK" secondAttribute="trailing" constant="5" id="xM3-5V-4xt"/>
+                    <constraint firstItem="hns-7I-aRw" firstAttribute="top" secondItem="GPf-on-CBN" secondAttribute="bottom" constant="6" id="znh-Dh-TIG"/>
+                    <constraint firstAttribute="topMargin" secondItem="KWp-i4-JMq" secondAttribute="top" id="zri-Ge-Wxf"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="completionLabel" destination="GPf-on-CBN" id="c2V-Dc-e04"/>
+                <outlet property="detailLabel" destination="rfq-7H-hdJ" id="IfF-QT-AvB"/>
+                <outlet property="headerLabel" destination="KWp-i4-JMq" id="zRs-vP-Hp8"/>
+                <outlet property="selectedButton" destination="7sf-mn-VwK" id="TVW-w4-hWg"/>
+            </connections>
+            <point key="canvasLocation" x="204" y="-197.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="checked1.png" width="100" height="100"/>
+        <image name="unchecked1.png" width="100" height="100"/>
+    </resources>
+</document>

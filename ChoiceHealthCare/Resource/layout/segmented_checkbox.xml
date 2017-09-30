@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cb_tab_segment"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal" >
+
+    <CheckBox
+        android:id="@+id/cb_any"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:checked="true"
+        android:button="@drawable/anytime_selector" />
+
+    <CheckBox
+        android:id="@+id/cb_morning"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:button="@drawable/morning_selector" />
+
+    <CheckBox
+        android:id="@+id/cb_afternoon"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:button="@drawable/afternoon_selector" />
+
+    <CheckBox
+        android:id="@+id/cb_evening"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:button="@drawable/evening_selector" />
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="editTextPadding">10dp</dimen>
+    <dimen name="editTextMinHieght">40dp</dimen>
+    <dimen name="textSize">18sp</dimen>
+    <dimen name="buttonPaddingTop">10dp</dimen>
+    <dimen name="buttonPaddingLeft">50dp</dimen>
+    <dimen name="rootPadding">80dp</dimen>
+
+</resources>
